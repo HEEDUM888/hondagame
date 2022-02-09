@@ -55,181 +55,328 @@
         "altText": "ยินดีด้วย มีเงินเข้า50บาท",
     "type": "flex",
     "contents": {
-  "type": "bubble",
-  "size": "giga",
-  "hero": {
-    "type": "image",
-    "url": "https://www.img.in.th/images/b791dfedec1b54f3d478f5638716072c.jpg",
-    "size": "full",
-    "aspectRatio": "1:1",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "uri": "https://lin.ee/RtdexOx"
-    },
-    "gravity": "center",
-    "position": "relative",
-    "animated": true
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "💲   กดรับได้เลย 100 บาท  💲",
-        "weight": "bold",
-        "size": "xl",
-        "color": "#FF9900",
-        "align": "center",
-        "gravity": "center",
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/b0163dfad2438f391a479c1ceb4b0bc4.jpg",
+        "size": "full",
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "https://lin.ee/RtdexOx"
+          "uri": "https://lin.ee/rfjrHKh"
         }
       },
-      {
-        "type": "box",
-        "layout": "baseline",
-        "margin": "md",
-        "contents": [
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-          },
-          {
-            "type": "text",
-            "text": "4.0",
-            "size": "sm",
-            "color": "#999999",
-            "margin": "md",
-            "flex": 0
-          }
-        ]
-      },
-      {
+      "body": {
         "type": "box",
         "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
         "contents": [
           {
             "type": "text",
-            "text": "แจกฟรีทุกคน ไม่ต้องลุ้น",
-            "color": "#FF6666"
+            "text": "แจกฟรีทันที 50 เครดิต",
+            "color": "#FF8C00",
+            "size": "xl",
+            "margin": "none",
+            "align": "center"
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "พิเศษ ✔",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 1
-              },
-              {
-                "type": "text",
-                "text": "1 สิทธิ์ ต่อ 1ท่าน",
-                "wrap": true,
-                "size": "sm",
-                "flex": 5,
-                "color": "#FFFFCC"
-              }
-            ]
+            "type": "text",
+            "text": "แจกจริง ถอนจริง เล่นได้ทุกเกม",
+            "color": "#FFFFE0",
+            "gravity": "center",
+            "align": "center"
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "ให้ฟรี ✔",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 1
-              },
-              {
-                "type": "text",
-                "text": "เล่นคาสิโนได้ แทงบอลได้",
-                "wrap": true,
-                "color": "#FFFFCC",
-                "size": "sm",
-                "flex": 5
-              }
-            ]
+            "type": "separator",
+            "margin": "sm",
+            "color": "#FFFFE0"
           }
-        ]
+        ],
+        "spacing": "none",
+        "margin": "none",
+        "backgroundColor": "#330033"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "กดรับเครดิตฟรี",
+              "uri": "https://lin.ee/rfjrHKh"
+            },
+            "style": "primary",
+            "color": "#FF8C00",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์รับอีก50",
+              "uri": "http://linecorp.com/"
+            },
+            "color": "#FF8C00",
+            "style": "primary",
+            "height": "sm",
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#330033",
+        "spacing": "none",
+        "margin": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none"
       }
-    ],
-    "backgroundColor": "#000033"
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "primary",
-        "height": "sm",
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/9952793294dbda22a107f51f1655ed20.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "margin": "none",
         "action": {
           "type": "uri",
-          "label": "สมัครรับเครดิตฟรี",
-          "uri": "https://lin.ee/RtdexOx",
-          "altUri": {
-            "desktop": "https://lin.ee/RtdexOx"
-          }
+          "label": "action",
+          "uri": "https://lin.ee/rfjrHKh"
         }
       },
-      {
-        "type": "button",
-        "style": "primary",
-        "height": "sm",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "color": "#FF8C00",
+            "size": "xl",
+            "margin": "none",
+            "align": "center",
+            "text": "ใจดี มียอดเสียคืนให้"
+          },
+          {
+            "type": "text",
+            "text": "รับยอดคืนทันที10%ทุกสัปดาห์",
+            "color": "#FFFFE0",
+            "gravity": "center",
+            "align": "center"
+          },
+          {
+            "type": "separator",
+            "margin": "sm",
+            "color": "#FFFFE0"
+          }
+        ],
+        "spacing": "none",
+        "margin": "none",
+        "backgroundColor": "#330033"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://www.betfilxpro9.com/"
+            },
+            "style": "primary",
+            "color": "#FF8C00",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สอบถามโปรโมชั่นเพิ่มเติม",
+              "uri": "https://lin.ee/rfjrHKh"
+            },
+            "color": "#FF8C00",
+            "style": "primary",
+            "height": "sm",
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#330033",
+        "spacing": "none",
+        "margin": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/f2614e8f3cdb3cff87546efd836e7183.jpg",
+        "size": "full",
+        "aspectMode": "cover",
         "action": {
           "type": "uri",
-          "label": "สอบถามเพิ่มเติม",
-          "uri": "https://lin.ee/RtdexOx",
-          "altUri": {
-            "desktop": "https://lin.ee/RtdexOx"
-          }
+          "label": "action",
+          "uri": "https://lin.ee/rfjrHKh"
         }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "รับโบนัส2เท่าของยอดฝาก",
+            "color": "#FF8C00",
+            "size": "xl",
+            "margin": "none",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "รับได้ทุกวัน ไม่จำกัดยูส",
+            "color": "#FFFFE0",
+            "gravity": "center",
+            "align": "center"
+          },
+          {
+            "type": "separator",
+            "margin": "sm",
+            "color": "#FFFFE0"
+          }
+        ],
+        "spacing": "none",
+        "margin": "none",
+        "backgroundColor": "#330033"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://www.betfilxpro9.com/"
+            },
+            "style": "primary",
+            "color": "#FF8C00",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สอบถามโปรโมชั่นเพิ่มเติม",
+              "uri": "https://lin.ee/rfjrHKh"
+            },
+            "color": "#FF8C00",
+            "style": "primary",
+            "height": "sm",
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#330033",
+        "spacing": "none",
+        "margin": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none"
       }
-    ],
-    "flex": 0,
-    "backgroundColor": "#000033"
-  },
-  "styles": {
-    "hero": {
-      "backgroundColor": "#F8F8FF",
-      "separatorColor": "#F8F8FF",
-      "separator": true
-    }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://www.img.in.th/images/84591d44a596980ab019fb9b87f2b731.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://lin.ee/rfjrHKh"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "รับฟรี20% ของยอดฝากเพื่อน",
+            "color": "#FF8C00",
+            "size": "lg",
+            "margin": "none",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "ถอนเป็นเงินสดหรือรับเป็นเครดิตก็ได้",
+            "color": "#FFFFE0",
+            "gravity": "center",
+            "align": "center",
+            "size": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "sm",
+            "color": "#FFFFE0"
+          }
+        ],
+        "spacing": "none",
+        "margin": "none",
+        "backgroundColor": "#330033"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ชวนเพื่อนมาฝาก",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "primary",
+            "color": "#FF8C00",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สอบถามโปรโมชั่นเพิ่มเติม",
+              "uri": "https://lin.ee/rfjrHKh"
+            },
+            "color": "#FF8C00",
+            "style": "primary",
+            "height": "sm",
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#330033",
+        "spacing": "none",
+        "margin": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none"
+      }
   }
 }
       }])
